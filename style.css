@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+
+body{
+	background-color: #f7f7f762;
+}
+
+#section-inicio{
+padding: 7rem;
+}
+
+.cryptowolf{
+	color: #4badfd;
+	font-weight: 900;
+	text-decoration:underline;
+}
+
+
+.c-inicio div h1{
+	font-size: 100px;
+	text-align: left;
+	color: rgba(0, 0, 0, 0.705);
+
+}
+
+.c-btn{
+	display: flex;
+	align-items: center;
+	height: 50vh;
+	justify-content: center;
+}
+
+#clickk{
+	text-decoration: dashed;
+	padding: 10px;
+	color: #0000009f;
+	border-bottom-left-radius: 10px;
+	background-color: #8AC9FE;;
+	text-transform: uppercase;
+}
+
+#clickk:hover{
+	background-color: #000000;
+	transition: 1.2s;
+	color: #e6f2fb;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.h2-w{
+	width: 400px;
+}
+
+
+.c-inf div{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 7rem;
+}
+
+.c-inf div h2{
+	font-family: 'Poppins', sans-serif;
+	color: rgba(0, 0, 0, 0.575);
+}
+
+.c-inf div img{
+	width: 700px;
+}
+
+.c-inicio div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#section-main{
+	background-color: #f7f7f762;
+}
+
+
+
+.c-nav div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.c-nav{
+	background-color: #ececec63;
+	box-shadow: 0 15px 75px #88c9ff;
+}
+
+.c-nav a{
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0px 15px;
+	font-weight: 550;
+}
+
+.price-fo{
+	text-align: center;
+    padding: 50px;
+    color: #00000073;
+    font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+	font-size: 30px;
+    text-transform: uppercase; 
+}
+
+.c-nav a:hover{
+	color: #8AC9FE;
+	transition: 1s;
+}
+
+.c-nav i{
+	font-size: 40px;
+	color: #000;
+}
+
+.c-nav i:hover{
+	color: #8AC9FE;
+	transition: 1s;
+}
+
+#section-cards{
+	background-color: #f7f7f762;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.container .card {
+	position: relative;
+	width: 300px;
+	height: 400px;
+	background-color: #f3f3f3;
+	margin: 20px;
+	box-shadow: 0 15px 35px #88c9ff;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.card:hover{
+transition: 0.7s;
+transform: scale(1.05);
+}
+
+.container .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+
+.container .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container .card .content .contentBx h3 {
+	color: rgb(92, 92, 92);
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+.container .card .content .contentBx h3:hover {
+	color: #000;
+	transition: 1s;
+}
+
+.container .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+}
+
+.container .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.sci a {
+    margin: 5px;
+}
+
+.sci li i{
+	background-color:#88c9ff;
+	padding: 5px;
+	border-radius: 7px;
+	letter-spacing: 3px;
+}
+
+.sci li i:hover{
+	transform: scale(1.1);
+	transition: 0.5s;
+	background-color: #6ca3cf;
+	cursor: pointer;
+}
+
+.container .card .sci li a {
+	color:  #F7F7F7;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+.container .card .sci li I {
+	color:  #F7F7F7;
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.c-log{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.c-log div img{
+    width: 600px;
+    height: 500px;
+}
+
+.c-log a{
+    color: #00000073;
+    text-decoration: none;
+}
+
+.c-log a:hover{
+    color: #ff0000(255, 255, 255);
+    transition: 0.5s;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 50px;
+    color: #00000073;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;  
+}
+
+#username, #password{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 50px;
+	padding-left: 50px;
+	border-radius: 10px;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#submit{
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border-radius: 10px;
+	color: rgba(0, 0, 0, 0.472);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+    div{
+        border-radius: 10px;
+        padding: 20px;
+    }
+
+	#btc-div, #eth-div, #dg-div{
+		width: 100px;
+		height: 100px;
+		color: rgba(0, 0, 0, 0.644);
+	}
+
+	#dg-div img{
+		width: 50px;
+		height: 50px;
+		padding-bottom: 10px;
+	}
+
+	#btc-div img{
+		width: 50px;
+		height: 50px;
+		padding-bottom: 10px;
+	}
+
+	#eth-div img{
+		width: 50px;
+		height: 50px;
+		padding-bottom: 10px;
+	}
+
+	.c-btn div{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#btn-bed{
+		border: none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 40px;
+		padding-left: 40px;
+		border-radius: 10px;
+		color: rgba(0, 0, 0, 0.472);
+	}
+
+	#btn-bed:hover{
+		background-color: #000000;
+		color: white;
+		transition: 1.5s;
+	}
+
+	#price-type div div{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+
+	#price-type{
+		background-color: #f7f7f762;
+		padding: 15rem;
+	}
+
+	#question-d, #question-e{
+		text-decoration: none;
+		font-size: 30px;
+		background-color: #8AC9FE;
+		color: rgba(0, 0, 0, 0.808);
+	}
+
+	#qe-a, #qe-e{
+		text-decoration: none;
+	}
+
+	#box{
+		width: 500px;
+		font-size: 20px;
+		color: rgba(0, 0, 0, 0.63);
+	}
+
+	.f-q{
+		text-transform: uppercase;
+		font-size: 30px;
+		text-align: center;
+		padding-bottom: 100px;
+		letter-spacing: 7px;
+		font-weight: 50;
+	}
+
+	#p-nft{
+		transition: 2s;
+	}
+
+	#nft-demostration{
+		background-color: #f7f7f762;
+	}
+
+	#nft1{
+		width: 10px;
+		height: 10px;
+		border-radius: 10px;
+	}
+
+	.c-blockchain div{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		height: 100vh;
+	}
+	
+	.c-blockchain div img{
+		width: 500px;
+	}
+
+	#p-information{
+		color: rgba(0, 0, 0, 0.575);
+		font-family: 'Poppins', sans-serif;
+		font-size: 25px;
+		background-color: #ffffff7c;
+		padding: 30px;
+		border-radius: 20px;
+		width: 500px;
+	}
+
+	#p-information:hover{
+		transition: 1.5s;
+		box-shadow: #88c9ff -5px 5px, #8AC9FE -10px 10px, #b6deff -15px 15px, #cbe7ff -20px 20px, #e9f5ff -25px 25px;
+	}
+	.span-v2{
+		font-weight: 900;
+		font-size: 40px;
+		color: #000000bb;
+	}
+
+	footer{
+		padding: 1rem;
+		background-color: #f7f7f762;
+	}
+
+	.c-footer div a:hover{
+		transition: 2s;
+		color: #000;
+	}
+	
+	.c-footer div{
+		display: flex;
+		justify-content: space-evenly;
+		flex-direction: row;
+	}
+
+	.c-footer div div{
+		margin: 5px;
+	}
+
+	.c-footer div i{
+		padding: 10px;
+	}
+
+	.c-footer div a{
+		margin-top: 1px;
+		text-decoration: none;
+		color: #000;
+		letter-spacing: 3px;
+	}
+
+	.c-footer div a, i:hover{
+		color: #30a0fc;
+	}
+
+	#nft{
+		padding: 5rem;
+		background-color: #f7f7f762;
+	}
+
+	.c-nft div{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.nfts{
+		box-shadow: #88c9ff -5px 5px, #8AC9FE -10px 10px, #b6deff -15px 15px, #cbe7ff -20px 20px, #e9f5ff -25px 25px;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		color: #88c9ff;
+		font-size: 100px;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	.container-divisas {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80vh;
+	}
+
+	.btn-swap{
+		border: none;
+		padding: 2px;
+		background-color: white;
+		padding-right: 17px;
+		padding-left: 17px;
+	}
+
+	.btn-swap img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.placeBtn{
+    display: flex;
+    justify-content: center;
+
+}
+
+.rate__title, .currencies__label{
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+
+}
+
+.rate__values{
+	text-align: center;
+}
+
+.exchange-center{
+	display: flex;
+	justify-content: center;
+}
