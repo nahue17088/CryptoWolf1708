@@ -1,0 +1,17 @@
+[
+    {
+        "precio": 43000,
+        "id": 1,
+        "title": "Bitcoin"
+    },
+    {
+        "precio": 0.50,
+        "id": 2,
+        "title": "Dogecoin"
+    },
+    {
+        "precio": 2300,
+        "id": 3,
+        "title": "Ethernum"
+    }
+]
